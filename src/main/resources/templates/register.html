@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	Please register
+	<form action="register" method="post" modelAttribute="userRegister">
+
+		<tr>
+			<td>USERNAME:</td>
+			<td><input type="text" name="username" placeholder="username"></td>
+		</tr>
+		<br />
+		<tr>
+			<td>PASSWORD:<input type="password" name="password" /></td>
+		</tr>
+		<br />
+		<tr>
+			<td>phone number:<input type="number" name="ph_no" /></td>
+		</tr>
+		<br />
+		<tr>
+			<td>EMAIL:<input type="email" name="email" /></td>
+		</tr>
+		<br />
+		<tr>
+			<td>DATE OF BIRTH:</td>
+			<td><input type="date" name="dob"></td>
+		</tr>
+		<br />
+		<tr>
+			<td>male:</td>
+			<td><input type="radio" name="gender"></td>
+			<td>female:</td>
+			<td><input type="radio" name="gender"></td>
+		</tr>
+		<br />
+
+		<tr>
+			<input type="submit">
+		</tr>
+		<br />
+</body>
+</html>
