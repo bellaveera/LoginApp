@@ -23,9 +23,7 @@ public class LoginController {
 
 	// private static final Logger
 	// log=LoggerFactory.getLogger(LoginController.class);
-/*
-veera
-*/
+
 	@Autowired
 	private LoginService loginservice;
 
